@@ -1,95 +1,147 @@
+import React from 'react';
+import styles from './page.module.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from 'next/image'
-import styles from './page.module.css'
+
+
 
 export default function Home() {
+
+  const button = {
+    color: "white",
+    height: "40px",
+      backgroundColor: "#4CAF50",
+      textTransform: "uppercase",
+      width: "inherit",
+      border: "outset",
+      font: "avenir"
+    
+  };
+
+  const donate = {
+
+      backgroundColor: "#F6F1F1",
+     
+  };
+
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+
+    <div class="container">
+      <div class="row">
+        <div  class="col-lg-6 col-md-8 col-sm-12  col-xs-12">
+
+        <Image
+        src="/photo.png"
+        width={600}
+        height={250}
+        alt="Picture of the author"
+      />
+          <br></br>
+          <br></br>
+          <Image
+        src="/logo.png"
+        width={400}
+        height={250}
+        alt="Picture of the author"
+      />
+
+          <p className="lead font-weight-light">
+            {' '}
+<span>Join us for the youth-centered services soft opening of Watch Me Grow, Inc. on July 29th. We bridge resource gaps, offer culturally sensitive programs, and empower young minds through engaging activities, education, and advocacy. Together, we'll create a nurturing environment for youth to thrive. Don't miss this exciting opportunity to be part of our mission.</span>
+           
+        
+          </p>
+          <div className="iframe">
+            {/* <iframe width="560" height="315"
+              src={'https://www.youtube.com/embed/YSEz2p56i9Q'}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe> */}
+            
+            <div>
+
+    </div>
+        
+          </div>
+        </div>
+        <div style={donate} class="col-lg-6  col-md-4  col-sm-12 col-xs-12">
+        <h2 className="display-4">Secure Your Donate</h2>
+          <span className="h3">Strengthening The Child, Family and Community</span>
+          <br></br>
+          <br></br>
+
+          <p>
+Your generous donations will be used to purchase essential equipment that empowers the youth in our community. With your support, we can provide them with the tools they need to learn, grow, and succeed. Together, let's create a nurturing environment where their potential can flourish.</p>
+
+          <br></br>
+          <br></br>
+ 
+          <h4 className={styles.buttonContainer}>Donate</h4>
+          <div className={styles.tooltipContainer}>
+            <span className={styles.tooltipText}>@watchmegrowinc </span>
+             <button className={styles.buttonStyles}>Paypal</button>
+          </div>
+          <div className={styles.tooltipContainer}>
+            <span className={styles.tooltipText}>$watchmegrowinc </span>
+             <button className={styles.buttonStyles}>Cash App</button>
+          </div>
+          <div className={styles.tooltipContainer}>
+            <span className={styles.tooltipText}>Watch Me Grow Inc 707-805-9543 </span>
+             <button className={styles.buttonStyles}>Zelle</button>
+          </div>
+          <div className={styles.tooltipContainer}>
+            <span className={styles.tooltipText}>@watchmegrowinc </span>
+             <button className={styles.buttonStyles}>Venmo</button>
+          </div>
+
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+
+          <h4>Sponsor A Room</h4>
+
+          <div className={styles.tooltipContainer}>
+            <span className={styles.tooltipText}>@watchmegrowinc </span>
+             <button className={styles.buttonStyles}>Venmo</button>
+          </div>
+          <div className={styles.tooltipContainer}>
+            <span className={styles.tooltipText}>@watchmegrowinc </span>
+             <button className={styles.buttonStyles}>Venmo</button>
+          </div>
+          <div className={styles.tooltipContainer}>
+            <span className={styles.tooltipText}>@watchmegrowinc </span>
+             <button className={styles.buttonStyles}>Venmo</button>
+          </div>
+          <div className={styles.tooltipContainer}>
+            <span className={styles.tooltipText}>@watchmegrowinc </span>
+             <button className={styles.buttonStyles}>Venmo</button>
+          </div>
+          <div className={styles.tooltipContainer}>
+            <span className={styles.tooltipText}>@watchmegrowinc </span>
+             <button className={styles.buttonStyles}>Venmo</button>
+          </div>
+          <div className={styles.tooltipContainer}>
+            <span className={styles.tooltipText}>@watchmegrowinc </span>
+             <button className={styles.buttonStyles}>Venmo</button>
+          </div>
+          <div className={styles.tooltipContainer}>
+            <span className={styles.tooltipText}>@watchmegrowinc </span>
+             <button className={styles.buttonStyles}>Venmo</button>
+          </div>
+
         </div>
       </div>
+      <br></br>
+      <br></br>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <div class="row">
+          <div class="col-lg-12">
+            <p></p>
+          </div>
       </div>
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+    </div>
+  );
 }
