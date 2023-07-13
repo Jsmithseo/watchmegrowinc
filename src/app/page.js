@@ -103,32 +103,30 @@ Your generous donations will be used to purchase essential equipment that empowe
           <h4>Sponsor A Room</h4>
 
           <div className={styles.tooltipContainer}>
-            <span className={styles.tooltipText}>@watchmegrowinc </span>
-             <button className={styles.buttonStyles}>Venmo</button>
+             <button className={styles.buttonStyles}> Green Room Media Room/Photography</button>
           </div>
           <div className={styles.tooltipContainer}>
-            <span className={styles.tooltipText}>@watchmegrowinc </span>
-             <button className={styles.buttonStyles}>Venmo</button>
+             <button className={styles.buttonStyles}>Orange Room Tech Room/Dance</button>
           </div>
           <div className={styles.tooltipContainer}>
-            <span className={styles.tooltipText}>@watchmegrowinc </span>
-             <button className={styles.buttonStyles}>Venmo</button>
+            <span className={styles.tooltipText}></span>
+             <button className={styles.buttonStyles}>Electric Blue - Music/Creative Writing </button>
           </div>
           <div className={styles.tooltipContainer}>
-            <span className={styles.tooltipText}>@watchmegrowinc </span>
-             <button className={styles.buttonStyles}>Venmo</button>
+            <span className={styles.tooltipText}> </span>
+             <button className={styles.buttonStyles}>Sky Blue - Zen </button>
           </div>
           <div className={styles.tooltipContainer}>
-            <span className={styles.tooltipText}>@watchmegrowinc </span>
-             <button className={styles.buttonStyles}>Venmo</button>
+            <span className={styles.tooltipText}>t </span>
+             <button className={styles.buttonStyles}>Purple - WMG Clothing Close</button>
           </div>
           <div className={styles.tooltipContainer}>
-            <span className={styles.tooltipText}>@watchmegrowinc </span>
-             <button className={styles.buttonStyles}>Venmo</button>
+            <span className={styles.tooltipText}> </span>
+             <button className={styles.buttonStyles}>Multi Color - Game</button>
           </div>
           <div className={styles.tooltipContainer}>
-            <span className={styles.tooltipText}>@watchmegrowinc </span>
-             <button className={styles.buttonStyles}>Venmo</button>
+            <span className={styles.tooltipText}> </span>
+             <button className={styles.buttonStyles}>White - Conference /Tutoring </button>
           </div>
 
         </div>
