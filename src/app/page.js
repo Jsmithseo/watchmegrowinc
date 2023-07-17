@@ -75,23 +75,36 @@ Your generous donations will be used to purchase essential equipment that empowe
 
           <br></br>
           <br></br>
- 
+          
           <h4 className={styles.buttonContainer}>Donate</h4>
-          <div className={styles.tooltipContainer}>
+          <div class="row">
+            <div class="col-lg-6 col-sm-12 col-xs-12">
+            <div className={styles.tooltipContainer}>
             <span className={styles.tooltipText}>@watchmegrowinc </span>
              <button className={styles.buttonStyles}>Paypal</button>
           </div>
+            </div>
+
+            <div class="col-lg-6 col-sm-12 col-xs-12">
           <div className={styles.tooltipContainer}>
             <span className={styles.tooltipText}>$watchmegrowinc </span>
              <button className={styles.buttonStyles}>Cash App</button>
           </div>
+          </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-sm-12 col-xs-12">
           <div className={styles.tooltipContainer}>
             <span className={styles.tooltipText}>Watch Me Grow Inc 707-805-9543 </span>
              <button className={styles.buttonStyles}>Zelle</button>
           </div>
+          </div>
+            <div class="col-lg-6 col-sm-12 col-xs-12">
           <div className={styles.tooltipContainer}>
             <span className={styles.tooltipText}>@watchmegrowinc </span>
              <button className={styles.buttonStyles}>Venmo</button>
+          </div>
+          </div>
           </div>
 
           <br></br>
@@ -103,42 +116,31 @@ Your generous donations will be used to purchase essential equipment that empowe
           <h4>Sponsor A Room</h4>
 
           <div className={styles.tooltipContainer}>
-             <button className={styles.buttonStyles}> Green Room Media Room/Photography</button>
+             <button className={styles.buttonTwoStyles}> Green Room Media Room/Photography</button>
           </div>
           <div className={styles.tooltipContainer}>
-             <button className={styles.buttonStyles}>Orange Room Tech Room/Dance</button>
+             <button className={styles.buttonTwoStyles}>Orange Room Tech Room/Dance</button>
           </div>
           <div className={styles.tooltipContainer}>
-            <span className={styles.tooltipText}></span>
-             <button className={styles.buttonStyles}>Electric Blue - Music/Creative Writing </button>
+             <button className={styles.buttonTwoStyles}>Electric Blue - Music/Creative Writing </button>
           </div>
           <div className={styles.tooltipContainer}>
-            <span className={styles.tooltipText}> </span>
-             <button className={styles.buttonStyles}>Sky Blue - Zen </button>
+             <button className={styles.buttonTwoStyles}>Sky Blue - Zen </button>
           </div>
           <div className={styles.tooltipContainer}>
-            <span className={styles.tooltipText}>t </span>
-             <button className={styles.buttonStyles}>Purple - WMG Clothing Close</button>
+             <button className={styles.buttonTwoStyles}>Purple - WMG Clothing Close</button>
           </div>
           <div className={styles.tooltipContainer}>
-            <span className={styles.tooltipText}> </span>
-             <button className={styles.buttonStyles}>Multi Color - Game</button>
+             <button className={styles.buttonTwoStyles}>Multi Color - Game</button>
           </div>
           <div className={styles.tooltipContainer}>
-            <span className={styles.tooltipText}> </span>
-             <button className={styles.buttonStyles}>White - Conference /Tutoring </button>
+             <button className={styles.buttonTwoStyles}>White - Conference /Tutoring </button>
           </div>
 
         </div>
       </div>
       <br></br>
       <br></br>
-
-      <div class="row">
-          <div class="col-lg-12">
-            <p></p>
-          </div>
-      </div>
 
     </div>
   );
