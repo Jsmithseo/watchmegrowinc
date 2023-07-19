@@ -2,11 +2,12 @@ import React from 'react';
 import styles from './page.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from 'next/image'
-import { Button } from 'reactstrap';
+import { Container } from 'reactstrap';
 
 
 
-export default function Home() {
+
+ function DonatePage() {
 
   const button = {
     color: "white",
@@ -26,11 +27,10 @@ export default function Home() {
   };
 
   return (
-        <div class="container-fluid">
+        <div class="container">
           <div class="row">
               <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                   <Image
-                    className="position"
                     src="/photo.png"
                     width={600}
                     height={250}
@@ -49,7 +49,7 @@ export default function Home() {
                   </div>
                 </div>
 
-              <div style={donate} class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+              <div style={donate} className="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                 <h2>Secure Your Donate</h2>
                   <h3>Strengthening The Child, Family and Community</h3>
                     <p>
@@ -58,7 +58,7 @@ export default function Home() {
                     <div class="row">
                     <h4>Donate</h4>
                       <div class="col-lg-6 col-sm-12 col-xs-12">
-                        <div className={styles.tooltipContainer}>
+                        <div classNameName={styles.tooltipContainer}>
                             <span className={styles.tooltipText}>@watchmegrowinc </span>
                             <button className={styles.buttonStyles}>Paypal</button>
                           </div>
@@ -120,4 +120,7 @@ export default function Home() {
             </div>
         </div>
     );
+    
 }
+
+export default DonatePage;
